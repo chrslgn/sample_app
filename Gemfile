@@ -9,11 +9,7 @@ gem 'sqlite3', :group => :development
 
 #Heroku uses postgres so need to use pg
 
-gem 'pg' 
-
-#Using redgreen for rspec testing
-gem 'mynyml-redgreen'
-require 'redgreen'
+gem 'pg'
 
 group :development do
   gem 'rspec-rails', '2.11.0'
@@ -22,6 +18,7 @@ end
 group :test do
   gem 'rspec', '2.11.0'
   gem 'webrat', '0.7.1'
+  gem 'mynyml-redgreen'
 end
 
 # Gems used only for assets and not required
