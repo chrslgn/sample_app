@@ -11,8 +11,8 @@ gem 'sqlite3', :group => :development
 
 gem 'pg' 
 
+#Using redgreen for rspec testing
 gem 'mynyml-redgreen'
-
 require 'redgreen'
 
 group :development do
